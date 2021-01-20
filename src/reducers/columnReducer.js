@@ -170,7 +170,6 @@ const columnReducer = (state = initialState, action) => {
         droppableIdEnd,
         droppableIndexStart,
         droppableIndexEnd,
-        draggableId,
       } = action.payLoad;
       const newState = [...state];
       //in the same column
